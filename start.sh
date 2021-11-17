@@ -1,4 +1,4 @@
 #!/bin/bash
-git pull
+git pull origin main
 
 ./$HOME/bin/start.sh
