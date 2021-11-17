@@ -1,3 +1,4 @@
 #!/bin/bash
+git pull
 
-echo "Nothing to do yet"
+./$HOME/bin/update.sh
