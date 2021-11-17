@@ -28,6 +28,7 @@ CLEAN_CODE="\033[0m"
 TRINCI_NODE_REPO="https://github.com/affidaty-blockchain/trinci-node.git"
 
 echo -e "${STEP_CODE}Step 1. Download the source code. \n ${CLEAN_CODE}"
+cd $HOME
 
 if [ -d "trinci-node" ]; then
 	echo -e "Source folder already exists. If you want a clean installation remove the trinci-node folder.."
