@@ -3,4 +3,4 @@ git checkout *
 git pull origin main
 chmod a+x $HOME/*.sh $HOME/bin/*.sh
 
-./$HOME/bin/update.sh
+$HOME/bin/update.sh
