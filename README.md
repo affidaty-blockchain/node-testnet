@@ -5,6 +5,13 @@ To install a node in testnet mode, clone this repository and run the install.sh 
 ```console
 trinci@node:~$ ./install.sh
 ```
+# :warning: Note
+
+set right permissione to scripts
+
+```console
+trinci@node:~$ chmod a+x $HOME/*.sh $HOME/bin/*.sh
+```
 
 # Run after installation
 
