@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!install.sh
+!start.sh
+!update.sh
+!README.md
