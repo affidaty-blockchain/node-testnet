@@ -42,14 +42,14 @@ fi
 echo -e "${STEP_CODE}Step 2. Compile the source code. \n"
 
 cd $HOME/trinci-node
-
+echo "1.56.1" > rust-toolchain
 # Compile the source code
 cargo build
 
 if [ $? -eq 0 ]; then
 	echo -e "\n${SUCCESS_CODE}Compilation ended successfully! \n ${CLEAN_CODE}"
 else
-	echo -e "\n${ERROR_CODE}Something wend wrond compiling the source code. \n ${CLEAN_CODE}"
+	echo -e "\n${ERROR_CODE}Something went wrong compiling the source code. \n ${CLEAN_CODE}"
 	exit 1
 fi
 
