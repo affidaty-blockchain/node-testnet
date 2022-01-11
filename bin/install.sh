@@ -68,7 +68,7 @@ else
 fi
 
 cp $HOME/trinci-node/target/debug/trinci-node $HOME/trinci/trinci
-cp $HOME/trinci-node/data/bootstrap.wasm $HOME/trinci/data/
+cp $HOME/trinci-node/bootstrap.wasm $HOME/trinci/data/
 
 
 echo -e "${SUCCESS_CODE}Copy completed!${CLEAN_CODE}\n"
